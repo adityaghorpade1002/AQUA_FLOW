@@ -15,12 +15,12 @@ const LoginPage = () => {
     // --- SIMPLE ROLE LOGIC ---
     if (email === 'admin@aquaflow.com' && password === 'admin123') {
       localStorage.setItem('userRole', 'admin');
-      localStorage.setItem('userName', 'Tom Cook');
+      localStorage.setItem('userName', 'ROHIT Cook');
       navigate('/app');
     } 
     else if (email === 'buyer@store.com' && password === 'buyer123') {
       localStorage.setItem('userRole', 'wholesaler');
-      localStorage.setItem('userName', 'Rahul Distributors');
+      localStorage.setItem('userName', 'ROHIT Distributors');
       navigate('/app');
     } 
     else {
